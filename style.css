@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(243, 204, 231);
+}
+
 .header {
     padding: 5px;
     color: black;
@@ -24,8 +28,46 @@
 img {
     width: 250px;
     height: auto;
-    display: inline;
+    
 }
-.awesome {
 
+.awesome {
+    display: flex;
+    flex: 1 1 100%;
+    margin-top: 10px;
+    flex-direction: row;
+    align-content: center;
+    
+    margin-right: 0px;
+    background-color: rgb(40, 162, 202);
+    padding-right:213px;
+    padding-left: 212px;
+    
+}
+
+
+.awesome2 {
+    align-self: flex-end;
+}
+.awesome1 {
+   align-self:flex-start;
+}
+.heading-two {
+    background-color: rgb(40, 162, 202);
+    display: flex;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: rgb(40, 162, 202);
+    padding: 50px;
+}
+.info-button {
+    width: 100px;
+    border-style:solid;
+    border-radius: 6px;
+    border-color: red;
+    padding: 4px;
 }
